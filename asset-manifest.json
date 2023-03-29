@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Shop-Savvy/static/css/main.11e5cf86.css",
+    "main.js": "/Shop-Savvy/static/js/main.596c2a6c.js",
+    "static/js/787.22edae46.chunk.js": "/Shop-Savvy/static/js/787.22edae46.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Shop-Savvy/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Shop-Savvy/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Shop-Savvy/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Shop-Savvy/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Shop-Savvy/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/draw2.avif": "/Shop-Savvy/static/media/draw2.bbc1fd265b4e35e8d86d.avif",
+    "index.html": "/Shop-Savvy/index.html",
+    "main.11e5cf86.css.map": "/Shop-Savvy/static/css/main.11e5cf86.css.map",
+    "main.596c2a6c.js.map": "/Shop-Savvy/static/js/main.596c2a6c.js.map",
+    "787.22edae46.chunk.js.map": "/Shop-Savvy/static/js/787.22edae46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11e5cf86.css",
+    "static/js/main.596c2a6c.js"
+  ]
+}
