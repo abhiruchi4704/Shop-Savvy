@@ -15,7 +15,7 @@ const Navbar = (props) => {
       <nav className="navbar navbar-expand-lg bg-white py-3 shadow-sm">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-4" to="/">
-            SHOPPING CART
+            SHOP SAVVY
           </NavLink>
           <button
             className="navbar-toggler"
@@ -45,11 +45,11 @@ const Navbar = (props) => {
                   About
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
             <div className="buttons">
                {userId===null ?<NavLink to="/login" className="btn btn-outline-dark">

@@ -11,7 +11,7 @@ import Products from "./Components/Products";
 import Profile from "./Components/Profile";
 import SignUp2 from "./Components/SignUp2";
 import EditProfile from "./Components/EditProfile"
-
+import About from "./Components/About"
 function App() {
   return (
     <>
@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/orderedProducts" component={OrderedProducts}/>
         <Route exact path="/addProduct" component={AddProduct}/>
         <Route exact path="/editProfile" component={EditProfile}/>
-
+        <Route exact path="/about" component={About}/>
         {/* <Route exact path="/about" */}
       </Switch>
     </>
