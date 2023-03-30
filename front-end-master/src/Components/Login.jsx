@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+//import { url } from "./AddProduct";
 
 function Login(props) {
   const [result, setResult] = useState([]);
@@ -9,7 +10,7 @@ function Login(props) {
   });
   const loginApi = (e) => {
     e.preventDefault(e);
-     axios.post("http://localhost:9090/login", {
+     axios.post("http://shopsavvy-env.eba-dg3qdgp9.ap-south-1.elasticbeanstalk.com/login", {
       email: Users.email,
       password: Users.password,
     })

@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import axios from "axios";
 
+export const url ="http://shopsavvy-env.eba-dg3qdgp9.ap-south-1.elasticbeanstalk.com"; 
+
 const AddProduct = (props) => {
     const [product, setProduct] = useState({
         category: "",
@@ -12,7 +14,7 @@ const AddProduct = (props) => {
       });
       const addingProduct = (e) => {
         e.preventDefault(e);
-         axios.post("http://localhost:9090/products/addProduct", {
+         axios.post("{url}/products/addProduct", {
           category: product.category,
           details: product.details,
           name: product.name,
